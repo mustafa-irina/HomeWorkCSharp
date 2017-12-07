@@ -30,3 +30,21 @@ Enter path to folder directory:
 C:\Users\Иришка\Downloads
 
 Time spent: 00:06:34.6414225; MD5 hash: fa0700142ffdebb5a980faee899448e7
+
+
+# BST
+
+
+Количество узлов: 1000000
+
+parallel add: 00:00:01.2797031
+
+parallel delete: 00:00:00.5194503
+
+parallel find: 00:00:00.9871516
+
+not parallel add: 00:00:02.0416093
+
+not parallel delete: 00:00:00.9595079
+
+not parallel find: 00:00:01.8005896
