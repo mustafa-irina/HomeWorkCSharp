@@ -197,7 +197,7 @@ namespace BST
                     Stopwatch add_parallel = Stopwatch.StartNew();
                     Parallel.ForEach(toAdd, key =>
                     {
-                        tree_parallel.Add(key,"XY");
+                        tree_parallel.Add(key,"op");
                     });
                     add_parallel.Stop();
                     Console.WriteLine("parallel add: {0}", add_parallel.Elapsed);
@@ -226,7 +226,7 @@ namespace BST
                     Stopwatch add_NotParallel = Stopwatch.StartNew();
                     foreach(int key in toAdd)
                     {
-                        tree_NotParallel.Add(key,"XY");
+                        tree_NotParallel.Add(key,"op");
                     }
                     add_NotParallel.Stop();
                     Console.WriteLine("not parallel add: {0}", add_NotParallel.Elapsed);
